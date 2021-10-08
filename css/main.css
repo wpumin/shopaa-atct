@@ -1,0 +1,139 @@
+/* Including one css file into other */
+@import 'reset.css';
+@import 'variables.css';
+@import 'header/styles.css';
+@import 'slider/styles.css';
+@import 'button/styles.css';
+@import 'button/back-to-top.css';
+@import 'product/styles.css';
+@import 'modal-cart/styles.css';
+@import 'modal-response/styles.css';
+@import 'footer/styles.css';
+
+body {
+    transform: 0.3s;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+    font-family: 'Roboto Regular', Arial, sans-serif;
+    font-size: 10px;
+    color: var(--primary);
+    background-color: var(--background-content);
+}
+
+/****************************************
+ font family
+ ***************************************/
+
+@font-face {
+    font-family: 'Roboto Black';
+    src: url('../fonts/roboto-black-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url('../fonts/roboto-medium-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto Thin';
+    src: url('../fonts/roboto-thin-webfont.woff2') format('woff2');
+}
+
+/****************************************
+ container for responsive
+ ***************************************/
+
+/*! header container */
+.container-header {
+    height: 60px;
+    padding: 0.75rem 1.5rem;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 992px) {
+    .container-header {
+        height: 72px;
+        padding: 1rem 2rem;
+    }
+}
+
+/*! product container */
+.container-products {
+    padding: 2rem 2rem 4rem 2rem;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    #products-list {
+        padding: 2rem 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #products-list {
+        padding: 2rem 4.5rem;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    #products-list {
+        padding: 2rem 8rem;
+    }
+}
+
+.blink {
+    animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+    75% {
+        opacity: 0.5;
+    }
+}
+
+span#timer {
+    font-family: var(--font-black);
+    color: var(--secondary-hover);
+}
+
+/****************************************
+ disable to highlight
+ ***************************************/
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+    supported by Chrome, Edge, Opera and Firefox */
+}
+
+/****************************************
+ font style
+ ***************************************/
+
+.dark {
+    color: var(--primary);
+}
+
+.danger {
+    color: var(--danger);
+}
+
+strong {
+    font-family: var(--font-medium) !important;
+}

@@ -1,0 +1,310 @@
+{
+    "products": {
+        "apple": {
+            "mac": [
+                {
+                    "name": "MacBook Air",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/macbook_air.png",
+                    "dollar": {
+                        "price": "999",
+                        "promotion_price": "899"
+                    },
+                    "th": {
+                        "price": "32900",
+                        "promotion_price": "29900"
+                    }
+                },
+                {
+                    "name": "MacBook Pro",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/macbook_pro.png",
+                    "dollar": {
+                        "price": "1299",
+                        "promotion_price": null
+                    },
+                    "th": {
+                        "price": "42900",
+                        "promotion_price": null
+                    }
+                },
+                {
+                    "name": "iMac",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/iMac.png",
+                    "dollar": {
+                        "price": "1299",
+                        "promotion_price": null
+                    },
+                    "th": {
+                        "price": "42900",
+                        "promotion_price": null
+                    }
+                },
+                {
+                    "name": "Mac Pro",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/mac_pro.png",
+                    "dollar": {
+                        "price": "5999",
+                        "promotion_price": "4999"
+                    },
+                    "th": {
+                        "price": "189900",
+                        "promotion_price": "169900"
+                    }
+                },
+                {
+                    "name": "Mac Mini",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/mac_mini.png",
+                    "dollar": {
+                        "price": "699",
+                        "promotion_price": null
+                    },
+                    "th": {
+                        "price": "22900",
+                        "promotion_price": null
+                    }
+                },
+                {
+                    "name": "Pro Display XDR",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/pro_display_xdr.png",
+                    "dollar": {
+                        "price": "4599",
+                        "promotion_price": "4299"
+                    },
+                    "th": {
+                        "price": "154900",
+                        "promotion_price": "144900"
+                    }
+                }
+            ],
+            "iphone": [
+                {
+                    "name": "iPhone 13 Pro",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/iphone13_pro.png",
+                    "dollar": {
+                        "price": "1199",
+                        "promotion_price": "1099"
+                    },
+                    "th": {
+                        "price": "38900",
+                        "promotion_price": "36900"
+                    }
+                },
+                {
+                    "name": "iPhone 13",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/iphone13.png",
+                    "dollar": {
+                        "price": "799",
+                        "promotion_price": "699"
+                    },
+                    "th": {
+                        "price": "25900",
+                        "promotion_price": "22900"
+                    }
+                },
+                {
+                    "name": "iPhone 12",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/iphone12.png",
+                    "dollar": {
+                        "price": "649",
+                        "promotion_price": null
+                    },
+                    "th": {
+                        "price": "21900",
+                        "promotion_price": null
+                    }
+                },
+                {
+                    "name": "iPhone 11",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/iphone11.png",
+                    "dollar": {
+                        "price": "579",
+                        "promotion_price": null
+                    },
+                    "th": {
+                        "price": "19500",
+                        "promotion_price": null
+                    }
+                },
+                {
+                    "name": "iPhone SE",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/iphone_se.png",
+                    "dollar": {
+                        "price": "439",
+                        "promotion_price": null
+                    },
+                    "th": {
+                        "price": "14900",
+                        "promotion_price": null
+                    }
+                }
+            ],
+            "ipad": [
+                {
+                    "name": "iPad Pro",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/ipad_pro.png",
+                    "dollar": {
+                        "price": "859",
+                        "promotion_price": null
+                    },
+                    "th": {
+                        "price": "27900",
+                        "promotion_price": null
+                    }
+                },
+                {
+                    "name": "iPad Air",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/ipad_air.png",
+                    "dollar": {
+                        "price": "599",
+                        "promotion_price": "549"
+                    },
+                    "th": {
+                        "price": "19900",
+                        "promotion_price": "18699"
+                    }
+                },
+                {
+                    "name": "iPad",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/ipad.png",
+                    "dollar": {
+                        "price": "349",
+                        "promotion_price": null
+                    },
+                    "th": {
+                        "price": "11400",
+                        "promotion_price": null
+                    }
+                },
+                {
+                    "name": "iPad mini",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/ipad_mini.png",
+                    "dollar": {
+                        "price": "529",
+                        "promotion_price": null
+                    },
+                    "th": {
+                        "price": "17900",
+                        "promotion_price": null
+                    }
+                }
+            ]
+        },
+        "huawei": {
+            "smartphone": [
+                {
+                    "name": "HUAWEI nova 8i",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/nova_8i.jpg",
+                    "dollar": {
+                        "price": "299",
+                        "promotion_price": "289"
+                    },
+                    "th": {
+                        "price": "9900",
+                        "promotion_price": "9690"
+                    }
+                },
+                {
+                    "name": "HUAWEI nova 7 SE",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/nova_7se.png",
+                    "dollar": {
+                        "price": "329",
+                        "promotion_price": "319"
+                    },
+                    "th": {
+                        "price": "10990",
+                        "promotion_price": "10690"
+                    }
+                },
+                {
+                    "name": "HUAWEI nova 7i",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/nova_7i.png",
+                    "dollar": {
+                        "price": "219",
+                        "promotion_price": "209"
+                    },
+                    "th": {
+                        "price": "7490",
+                        "promotion_price": "7190"
+                    }
+                },
+                {
+                    "name": "HUAWEI nova 7",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/nova7.png",
+                    "dollar": {
+                        "price": "449",
+                        "promotion_price": "439"
+                    },
+                    "th": {
+                        "price": "14990",
+                        "promotion_price": "14690"
+                    }
+                },
+                {
+                    "name": "HUAWEI P40 Pro",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/p40_pro.png",
+                    "dollar": {
+                        "price": "949",
+                        "promotion_price": null
+                    },
+                    "th": {
+                        "price": "31990",
+                        "promotion_price": null
+                    }
+                },
+                {
+                    "name": "HUAWEI P40",
+                    "short_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit, soluta tempore repellat hic voluptas totam atque.",
+                    "more_detail": "- Lorem Ipsum is simply dummy text \n - Lorem ipsum dolor sit amet elit \n - Lorem ipsum dolor sit amet",
+                    "image": "../img/products/p40.png",
+                    "dollar": {
+                        "price": "679",
+                        "promotion_price": "669"
+                    },
+                    "th": {
+                        "price": "22990",
+                        "promotion_price": "22690"
+                    }
+                }
+            ]
+        }
+    }
+}

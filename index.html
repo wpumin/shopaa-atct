@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Shopaa Thailand | ซื้อขายผ่านมือถือหรือออนไลน์</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:image" content="./img/10.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1920" />
+        <meta property="og:image:height" content="1080" />
+        <meta
+            property="og:description"
+            content="Shopaa Thailand | ซื้อขายผ่านมือถือหรือออนไลน์"
+        />
+        <meta property="og:url" content="https://shopaa.netlify.app" />
+        <link rel="icon" href="./favicon.ico" sizes="any" />
+        <link rel="stylesheet" href="css/main.css?v1.0.0" />
+        <!-- javascript onload -->
+        <script>
+            function toggleDetail(index) {
+                let detailArrowSpecific = document.getElementById(
+                    'arrow-detail-' + index
+                )
+                let detailSpecific = document.getElementById('detail-' + index)
+                detailSpecific.classList.toggle('fade')
+                detailArrowSpecific.classList.toggle('rotated')
+            }
+            function demoAlert() {
+                window.alert('Ops! this website is a demo version')
+            }
+        </script>
+    </head>
+    <body class="noselect">
+        <!-- modal-cart start -->
+        <section class="container-modal hide">
+            <div class="backdrop-modal">
+                <div class="modal-cart" id="modal-cart">
+                    <div class="modal-cart-header">
+                        <h3>
+                            Your cart total is
+                            <span class="empasize" id="total-price">$0</span>
+                        </h3>
+                        <button class="checkout without-border">
+                            check out
+                        </button>
+                    </div>
+                    <hr />
+                    <div class="cart-list">
+                        <div class="no-cart-list">
+                            <div class="cart-icon-in-modal">
+                                <img src="./img/icon/cart.png" alt="cart" />
+                                <div>
+                                    <span class="cart-list-empty">?</span>
+                                </div>
+                            </div>
+                            <h4>Your cart is empty!</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- modal-cart end -->
+
+        <!-- response when add product in cart start -->
+        <section class="container-reponse hide">
+            <div class="backdrop-modal">
+                <div class="modal-response" id="modal-response">
+                    <img src="./img/icon/correct.png" alt="correct" />
+                    <p>Added product into your cart</p>
+                    <button class="ok-button without-border">ok</button>
+                </div>
+            </div>
+        </section>
+        <!-- response when add product in cart end -->
+
+        <!-- header start -->
+        <section id="navbar" class="container-header">
+            <a href="/">
+                <div class="logo">
+                    <img src="./img/icon/shopaa-logo.png" alt="shopaa-logo" />
+                    <h1>Shopaa Thailand</h1>
+                </div>
+            </a>
+            <div class="right-hand-side">
+                <div class="user">
+                    <img
+                        src="./img/icon/user.png"
+                        alt="cart"
+                        onclick="demoAlert()"
+                    />
+                </div>
+                <div class="cart">
+                    <img
+                        src="./img/icon/cart.png"
+                        alt="cart"
+                        id="cart-button"
+                    />
+                    <div class="circle hide">
+                        <span id="cart-list-length"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- header end -->
+
+        <!-- sliders-list start -->
+        <section class="sliders-list">
+            <div class="slider-items">
+                <div class="item active">
+                    <img src="img/sliders/slide1.jpg" />
+                    <div class="caption">
+                        <h1 class="dark">
+                            <span class="danger">10.10</span> is coming..
+                        </h1>
+                        <p class="dark">
+                            Our monthly shoping festival will opening within
+                            <span id="timer" class="blink">02 hr 00 m 00 s</span
+                            >, please stay tuned to cliam your code and enjoy in
+                            shopping!
+                        </p>
+                        <button class="without-border disable">
+                            Claim Code
+                        </button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/sliders/slide2.jpg" />
+                    <div class="caption">
+                        <h1 class="dark">
+                            Shopaa <span class="danger">Pay</span>
+                        </h1>
+                        <p class="dark">
+                            Shopaa Pay is a feature that stores money from your
+                            refunds and top-up which can then be used to pay for
+                            your next order via..
+                        </p>
+                        <button class="without-border" onclick="demoAlert()">
+                            See more
+                        </button>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/sliders/slide3.jpg" />
+                    <div class="caption">
+                        <h1 class="dark">
+                            Shopaa <span class="danger">Thailand</span>
+                        </h1>
+                        <p class="dark">
+                            The defination of <strong>"Shopaa"</strong> means
+                            <strong>"Shopping, right?"</strong> in Thai
+                            language, so Shopaa not equal Shopee — no purpose in
+                            mimicking
+                        </p>
+                        <button class="without-border" onclick="demoAlert()">
+                            See more
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="left-slide">
+                <img
+                    src="./img/icon/arrow2.svg"
+                    alt="arrow"
+                    class="arrow arrow-left"
+                />
+            </div>
+            <div class="right-slide">
+                <img
+                    src="./img/icon/arrow2.svg"
+                    alt="arrow"
+                    class="arrow arrow-right"
+                />
+            </div>
+        </section>
+        <!-- sliders-list end -->
+
+        <!-- products-list start -->
+        <section class="container-products">
+            <h2 class="poduct-categories">Apple Mac</h2>
+            <section id="products-list" class="mac-list"></section>
+            <h2 class="poduct-categories">Apple iPhone</h2>
+            <section id="products-list" class="iphone-list"></section>
+            <h2 class="poduct-categories">Apple iPad</h2>
+            <section id="products-list" class="ipad-list"></section>
+            <h2 class="poduct-categories">Huawei Smartphone</h2>
+            <section
+                id="products-list"
+                class="huawei-smartphone-list"
+            ></section>
+        </section>
+        <!-- products-list end -->
+
+        <!-- footer start -->
+        <footer>
+            Copyright © Shopaa Thailand - 2021
+            <span>
+                The purpose of this project is a case study - No purpose in
+                mimicking brands
+            </span>
+        </footer>
+        <!-- footer end -->
+
+        <!-- back to top start -->
+        <div>
+            <div id="back-to-top">
+                <img
+                    src="./img/icon/arrow2.svg"
+                    alt="arrow"
+                    class="arrow arrow-top"
+                />
+            </div>
+        </div>
+        <!-- back to top end -->
+
+        <!-- JavaScript Template -->
+        <script src="js/index.js"></script>
+        <script src="js/sliders/index.js"></script>
+        <script src="js/fake-countdown/index.js"></script>
+        <script src="js/back-to-top/index.js"></script>
+
+        <!-- Products and Cart -->
+        <script src="js/products/index.js" type="module"></script>
+        <script src="js/modal-cart/index.js" type="module"></script>
+        <script src="js/modal-response/index.js" type="module"></script>
+    </body>
+</html>

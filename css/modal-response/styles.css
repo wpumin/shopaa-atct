@@ -1,0 +1,26 @@
+.container-response {
+    z-index: var(--zIndex-container-modal);
+    transition: opacity 0.3s ease-in !important;
+}
+
+.modal-response {
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding: 3rem;
+    background-color: var(--white);
+}
+
+.modal-response img {
+    width: 120px;
+}
+
+.modal-response p {
+    margin-bottom: 1rem;
+    font-family: var(--font-bold);
+    font-size: clamp(16px, 75%, 22px);
+}
+
+.ok-button {
+    margin-top: 0rem;
+    width: 100%;
+}

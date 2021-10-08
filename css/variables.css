@@ -1,0 +1,44 @@
+:root {
+    /* theme color  */
+    --primary: rgb(31, 31, 31);
+    --primary-hover: rgb(41, 41, 41);
+    --primary-opacity: rgba(41, 41, 41, 0.75);
+    --secondary: rgb(230, 0, 0);
+    --secondary-spare: rgb(230, 54, 0);
+    --secondary-hover: rgb(255, 102, 51);
+    --secondary-hover-spare: rgb(255, 133, 51);
+    --secondary-opacity: rgba(230, 0, 0, 0.75);
+    --white: rgb(255, 255, 255);
+    --gray: rgb(242, 242, 242);
+    --gray-hover: rgb(217, 217, 217);
+    --gray-pigeon: rgb(141, 141, 141);
+    --dark-gray: rgb(102, 102, 102);
+    --background-content: rgba(0, 0, 0, 0.05);
+    --danger: rgb(207, 23, 56);
+    --danger-opacity: rgb(207, 23, 56, 0.75);
+    --warning: rgb(252, 186, 3);
+    --warning-opacity: rgba(252, 186, 3, 0.75);
+    --success: rgb(62, 171, 72);
+    --success-opacity: rgba(62, 171, 72, 0.75);
+
+    /* font family */
+    --font-black: 'Roboto Black', Arial, sans-serif;
+    --font-bold: 'Roboto Bold', Arial, sans-serif;
+    --font-medium: 'Roboto Medium', Arial, sans-serif;
+    --font-regular: 'Roboto Regular', Arial, sans-serif;
+    --font-thin: 'Roboto Thin', Arial, sans-serif;
+
+    /* shadow and focus */
+    --box-shadow: -1px 2px 6px -2px rgba(0, 0, 0, 0.75);
+    --button-focus: 0 0 0 4px rgba(255, 124, 36, 0.6);
+
+    /* z-Index */
+    --zIndex-normal: 1;
+    --zIndex-navbar: 3;
+    --zIndex-back-to-top: 5;
+    --zIndex-alert: 7;
+    --zIndex-close-alert: 8;
+    --zIndex-backdrop: 10;
+    --zIndex-container-modal: 13;
+    --zIndex-modal: 15;
+}

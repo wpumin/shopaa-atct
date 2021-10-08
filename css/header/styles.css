@@ -1,0 +1,107 @@
+#navbar {
+    z-index: var(--zIndex-navbar);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(
+        -180deg,
+        var(--secondary) 0%,
+        var(--secondary-spare) 100%
+    );
+}
+
+#navbar a > .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+#navbar .logo h1 {
+    margin-left: 0.75rem;
+    color: var(--white);
+    font-size: clamp(18px, 50%, 34px);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none !important;
+}
+
+#navbar .logo img {
+    filter: brightness(0) invert(1);
+    width: 26px;
+    height: 30px;
+}
+
+#navbar .right-hand-side {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar .right-hand-side .user img {
+    filter: brightness(0) invert(1);
+    width: 28px;
+    height: 28px;
+    margin-right: 0.625rem;
+}
+
+#navbar .right-hand-side .cart {
+    transition: 0.3s linear;
+    position: relative;
+}
+
+@keyframes motivate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#navbar .cart.motivate-to-click {
+    animation: motivate 1s linear infinite;
+}
+
+#navbar .cart:hover {
+    transform: rotateZ(-7deg);
+}
+
+#navbar .cart #cart-button {
+    filter: brightness(0) invert(1);
+    justify-content: flex-end;
+    width: 28px;
+    height: 30px;
+}
+
+#navbar .cart .circle {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: -0.15rem;
+    right: -0.25rem;
+    border-width: 1px;
+    border-color: var(--white);
+    border-style: solid;
+    width: 15px;
+    height: 15px;
+    background-color: var(--danger);
+    border-radius: 50%;
+}
+
+#navbar .cart span {
+    color: var(--white);
+    font-family: var(--font-bold);
+    font-size: clamp(7.5px, 80%, 24px);
+}

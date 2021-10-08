@@ -1,0 +1,23 @@
+#back-to-top {
+    z-index: var(--zIndex-back-to-top);
+    opacity: 0;
+    transition: 0.3s linear;
+    cursor: pointer;
+    position: sticky;
+    padding: 0.75rem;
+    background-color: var(--secondary-hover);
+    box-shadow: var(--box-shadow);
+    position: fixed;
+    top: calc(100vh - 5rem);
+    right: 2rem;
+    border-radius: 50%;
+}
+
+#back-to-top:hover {
+    background-color: var(--secondary-hover-spare);
+}
+
+.arrow-top {
+    filter: brightness(0) invert(1);
+    transform: rotateZ(-90deg);
+}

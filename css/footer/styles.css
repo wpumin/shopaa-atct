@@ -1,0 +1,28 @@
+footer {
+    width: inherit;
+    padding: 1.75rem 0;
+    background-color: var(--secondary);
+    color: var(--white);
+    font-size: clamp(14px, 75%, 24px);
+    text-align: center;
+}
+
+@media only screen and (max-width: 575px) {
+    footer span {
+        font-family: var(--font-thin);
+        font-size: clamp(10px, 50%, 16px);
+        margin-top: 0.5rem;
+        display: block;
+    }
+    footer span::before {
+        content: '' !important;
+    }
+}
+
+footer span::before {
+    content: ' | ';
+}
+
+footer span {
+    font-family: unset;
+}
